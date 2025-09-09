@@ -60,7 +60,7 @@ import chs_pyspedas
 from pytplot import tplot, store_data, options, get_data
 import pyspedas
 from chs_pyspedas.susanoo.load import su_load
-'''
+```
 
 Choose timespan by trange
 ```python
