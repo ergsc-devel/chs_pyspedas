@@ -62,7 +62,9 @@ import pyspedas
 from chs_pyspedas.susanoo.load import su_load
 ```
 
-Choose timespan by trange
+Choose timespan by trange and locations by site. The list of site is ['earth', 'mercury', 'venus', 'mars', 'psp', 'solaro', 'bepic', 'stereoa'].
+
+
 ```python
 susanoo_vars = su_load(trange= ['2011-04-01', '2011-05-01'], site = 'earth')
 tplot(['susanoo_sw_swvv_earth', 'susanoo_sw_imfb_earth', 'susanoo_sw_dens_earth', 'susanoo_sw_pre_earth'])
