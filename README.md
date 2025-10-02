@@ -62,7 +62,9 @@ import pyspedas
 from chs_pyspedas.susanoo.load import su_load
 ```
 
-Choose timespan by trange and locations by site. The list of site is ['earth', 'mercury', 'venus', 'mars', 'psp', 'solaro', 'bepic', 'stereoa'].
+Choose timespan by trange and locations by site. 
+
+The list of site is ['earth', 'mercury', 'venus', 'mars', 'psp', 'solaro', 'bepic', 'stereoa'].
 
 
 ```python
