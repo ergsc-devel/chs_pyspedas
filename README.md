@@ -57,7 +57,7 @@ An example code for Jupyter notebooks
 
 ```python
 import chs_pyspedas
-from pytplot import tplot, store_data, options, get_data
+from pyspedas import tplot, store_data, options, get_data
 import pyspedas
 from chs_pyspedas.susanoo.load import su_load
 ```
