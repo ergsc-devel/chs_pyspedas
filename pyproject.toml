@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "chs_pyspedas"
-version = "0.0"
+version = "0.1"
 description = "CHS plug-in for pySPEDAS"
 readme = {file = "README.md", content-type = "text/markdown"}
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 license = {text = "ISEE"}
 
 classifiers = [
@@ -24,7 +24,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-dependencies = ["pyspedas>=1.2.8"]
+dependencies = ["pyspedas>=2.0.5"]
 
 [tool.setuptools]
 packages = {find = {exclude = ["contrib", "docs", "tests*"]}}
